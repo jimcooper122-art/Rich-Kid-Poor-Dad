@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(start:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(cp /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/Audio/click_002.ogg /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/click.ogg)",
+      "Bash(cp /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/Audio/confirmation_001.ogg /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/correct.ogg)",
+      "Bash(cp /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/Audio/error_001.ogg /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/wrong.ogg)",
+      "Bash(cp /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/Audio/chip-lay-1.ogg /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/coin.ogg)",
+      "Bash(cp /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/Audio/chips-handle-1.ogg /c/Users/ferra/Documents/Claude/Learning_Game/public/sound/coin-big.ogg)",
+      "Bash(vercel env *)",
+      "Bash(vercel --prod)",
+      "Bash(grep -v \"^Binary\\\\|^//\")",
+      "Bash(npx vite *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Slow difficulty progression, fix confidence reset bug, simplify question language *)",
+      "Bash(git push *)"
+    ]
+  }
+}
